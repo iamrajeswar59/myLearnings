@@ -66,8 +66,7 @@ int main() {
   output:
 
 ```
-uniform initialization --> myName= Rajesh1  
-
+uniform initialization --> myName= Rajesh1  <br>
 after assignment operation --> myName= Rajesh2 
 ```
 
