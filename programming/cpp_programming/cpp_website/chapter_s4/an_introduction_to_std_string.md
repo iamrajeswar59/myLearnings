@@ -13,7 +13,7 @@ in c++
 * string is **not built in data type** to language
 * its part of **standard library std::string**
 
-to use 
+###### to use 
 
 * ```c++
   #include <string>
@@ -31,7 +31,7 @@ to use
 
 
 
-Simple program to demonstrate std::string
+###### Simple program to demonstrate std::string
 
 **file name:** string_demo1.cpp
 
