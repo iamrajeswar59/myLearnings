@@ -88,6 +88,8 @@ std::string myFloatAsString{"45.55"};
 
 ### Read string from user input : std::cin   --> avoid
 
+**file name:** string_demo2.cpp
+
 ```c++
 #include <iostream>
 #include <string>
@@ -133,6 +135,8 @@ myAge=Doe
 
 
 if myAge is declared as **int**. no other changes. observe the output. 
+
+**file name:** string_demo2.cpp
 
 ```c++
 #include <iostream>
