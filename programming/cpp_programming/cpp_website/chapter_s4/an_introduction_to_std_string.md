@@ -66,7 +66,7 @@ int main() {
   output:
 
 ```c++
-uniform initialization --> myName= Rajesh1  <br>
+uniform initialization --> myName= Rajesh1  
 after assignment operation --> myName= Rajesh2 
 ```
 
@@ -125,8 +125,8 @@ int main() {
 output: 
 
 ```
-Enter full name: John Doe <br>
-Enter age: myName=John       <br>  
+Enter full name: John Doe 
+Enter age: myName=John         
 myAge=Doe
 ```
 
@@ -171,8 +171,8 @@ int main() {
 output: 
 
 ```
-Enter full name: John Doe  <br>
-Enter age: myName=John    <br>
+Enter full name: John Doe  
+Enter age: myName=John   
 myAge=0 
 ```
 
