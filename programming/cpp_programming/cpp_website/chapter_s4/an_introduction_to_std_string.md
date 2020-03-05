@@ -8,3 +8,17 @@ https://www.learncpp.com/cpp-tutorial/4-4b-an-introduction-to-stdstring/
 
  
 
+in c++ 
+
+* string is **not built in data type** to language
+* its part of **standard library std::string**
+
+to use 
+
+* #include <string>
+
+* create string variable using std::string
+
+  ex: std::string myName;
+
+  
