@@ -176,3 +176,13 @@ Enter age: myName=John
 myAge=0 
 ```
 
+**Explanation:**
+
+* when we use ">>" operator to extract string from cin 
+  * operator returns characters up to first whitespace
+  * other characters after whitespace are left inside cin , waiting for next extraction
+* John Doe
+  * John extracted first --> assigned to myName
+  * Doe is after whitespace. so it's assigned to myAge. 
+  * Never asked to enter age. 
+
