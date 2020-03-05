@@ -15,10 +15,18 @@ in c++
 
 to use 
 
-* #include <string>
+* ```c++
+  #include <string>
+  ```
+
+  
 
 * create string variable using std::string
 
-  ex: std::string myName;
+  ```c++
+  std::string myName;
+  ```
+
+  
 
   
