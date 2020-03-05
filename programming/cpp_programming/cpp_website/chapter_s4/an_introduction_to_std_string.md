@@ -27,6 +27,10 @@ to use
   std::string myName;
   ```
 
+
+
+
+
 Simple program to demonstrate std::string
 
 **file name:** string_demo1.cpp
@@ -62,6 +66,8 @@ int main() {
   output:
 
 ```
-uniform initialization --> myName= Rajesh1                                               after assignment operation --> myName= Rajesh2 
+uniform initialization --> myName= Rajesh1  
+
+after assignment operation --> myName= Rajesh2 
 ```
 
