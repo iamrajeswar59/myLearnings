@@ -31,7 +31,7 @@ in c++
 
 
 
-###### Simple program to demonstrate std::string
+### Simple program to demonstrate std::string
 
 **file name:** string_demo1.cpp
 
@@ -86,7 +86,7 @@ std::string myFloatAsString{"45.55"};
 
 
 
-###### Read string from user input : std::cin   --> avoid
+### Read string from user input : std::cin   --> avoid
 
 ```c++
 #include <iostream>
