@@ -65,8 +65,114 @@ int main() {
 
   output:
 
-```
+```c++
 uniform initialization --> myName= Rajesh1  <br>
 after assignment operation --> myName= Rajesh2 
+```
+
+
+
+**Note:**
+
+Numbers in quotes (either single or double)  --> string   , not number
+
+```c++
+// 45 is treated as string. not number --> not integer
+std::string myIntAsString{"45"};
+
+// 45.55  is treated as string. not number --> not float
+std::string myFloatAsString{"45.55"}; 
+```
+
+
+
+###### Read string from user input : std::cin   --> avoid
+
+```c++
+#include <iostream>
+#include <string>
+
+int main() {
+	// declare a string variable
+	// Not initialized
+	std::string myName;
+
+    // myAge is declared as string
+	std::string myAge;
+
+	// Read user input using std::cin 
+	// Note: avoid. 
+	// why ?? std::cin --> returns characters up to first white space
+	//                 --> any other characters --> next extraction
+	//   eg: John Doe   --> John is returned
+	//                  --> Doe is returned for next std::cin
+
+	// John is read here
+	std::cout << "Enter full name: ";
+	std::cin >> myName; 
+
+	// Doe is read here
+	std::cout << "Enter age: ";
+	std::cin >> myAge;
+
+	std::cout << "myName=" << myName << std::endl;
+	std::cout << "myAge=" << myAge << std::endl;
+
+	return 0;
+}
+```
+
+output: 
+
+```
+Enter full name: John Doe <br>
+Enter age: myName=John       <br>  
+myAge=Doe
+```
+
+
+
+if myAge is declared as **int**. no other changes. observe the output. 
+
+```c++
+#include <iostream>
+#include <string>
+
+int main() {
+	// declare a string variable
+	// Not initialized
+	std::string myName;
+
+    // myAge is declared as int.
+	int myAge;
+
+	// Read user input using std::cin 
+	// Note: avoid. 
+	// why ?? std::cin --> returns characters up to first white space
+	//                 --> any other characters --> next extraction
+	//   eg: John Doe   --> John is returned
+	//                  --> Doe is returned for next std::cin
+
+	// John is read here
+	std::cout << "Enter full name: ";
+	std::cin >> myName; 
+
+	// Doe is read here
+	std::cout << "Enter age: ";
+	std::cin >> myAge;
+
+	std::cout << "myName=" << myName << std::endl;
+	std::cout << "myAge=" << myAge << std::endl;
+
+	return 0;
+}
+```
+
+output: 
+
+```
+Enter full name: John Doe  <br>
+Enter age: myName=John    <br>
+myAge=0 
 ```
 
